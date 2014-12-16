@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/manyak/work/git/critprop/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+gsl/gsl_sf_bessel.h
+-
+gsl/gsl_rng.h
+-
+gsl/gsl_randist.h
+-
+gsl/gsl_vector.h
+-
+gsl/gsl_blas.h
+-
+gsl/gsl_multifit_nlin.h
+-
+critfunc.h
+-
+

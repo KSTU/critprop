@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/critprop.dir/main.c.o  -o critprop -rdynamic -lgsl -lgslcblas -lm 
